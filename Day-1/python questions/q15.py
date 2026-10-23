@@ -10,10 +10,8 @@ Practice Problem: Print the following pattern where each row contains a number r
 Exercise Purpose: Pattern printing is a classic way to learn “Nested Loops.” You coordinate an outer loop for rows and an inner loop for columns or repetitions. This improves spatial logic and control over output formatting.
 """
 
-
-num = int(input("Enter a Number"))
-for i in range(1,num+1):
-  for j in range(1,i+1):
-    print(i,end=' ')
-  print('')
-    
+num = int(input("Enter a Number : "))
+for i in range(num+1):
+  for j in range(i):
+    print(i , end="")
+  print("")
